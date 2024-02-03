@@ -9,9 +9,9 @@ The FetchRewards Desserts application showcases a collection of desserts and the
 | <img src="https://github.com/harjotsbhatia/FetchRewards-TakeHome/assets/89289963/1bdea5c7-0838-45d3-b826-4d3808a4c242"  height="400" />   | ![GIF 2024-02-03 at 14 52 59](https://github.com/harjotsbhatia/FetchRewards-TakeHome/assets/89289963/d6f437cd-6850-401e-a925-bbb4beb00b34)|
 | --------------------------------------- | --------------------------------------- |
 
-</div
+</div>
 
-
+The FetchRewards Desserts application adopts the MVVM (Model-View-ViewModel) architectural pattern, which promotes separation of concerns by dividing the application into three main components, leveraging asynchronous data fetching with Swift's async/await, dependency injection for flexible testing and configuration, SwiftUI for a reactive and declarative UI, structured error handling for robustness, and a modular design for maintainability.
 
 
 ## Models
