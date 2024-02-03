@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BB7F0A92B6D37930095AEC4 /* DessertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB7F0A82B6D37930095AEC4 /* DessertsView.swift */; };
+		3BB7F0AB2B6D385B0095AEC4 /* Dessert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB7F0AA2B6D385B0095AEC4 /* Dessert.swift */; };
+		3BB7F0AD2B6D38700095AEC4 /* DessertsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB7F0AC2B6D38700095AEC4 /* DessertsViewModel.swift */; };
+		3BB7F0B02B6D39070095AEC4 /* DessertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB7F0AF2B6D39070095AEC4 /* DessertService.swift */; };
+		3BB7F0B22B6D39580095AEC4 /* DessertDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB7F0B12B6D39580095AEC4 /* DessertDetails.swift */; };
+		3BB7F0B42B6D3C710095AEC4 /* DessertDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB7F0B32B6D3C710095AEC4 /* DessertDetailsView.swift */; };
+		3BB7F0B62B6D3CBA0095AEC4 /* DessertDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB7F0B52B6D3CBA0095AEC4 /* DessertDetailsViewModel.swift */; };
 		3BC9AEE22B6B1A1E002E2B6B /* FetchRewardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9AEE12B6B1A1E002E2B6B /* FetchRewardsApp.swift */; };
-		3BC9AEE42B6B1A1E002E2B6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9AEE32B6B1A1E002E2B6B /* ContentView.swift */; };
 		3BC9AEE62B6B1A22002E2B6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC9AEE52B6B1A22002E2B6B /* Assets.xcassets */; };
 		3BC9AEEA2B6B1A22002E2B6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC9AEE92B6B1A22002E2B6B /* Preview Assets.xcassets */; };
 		3BC9AEF42B6B1A22002E2B6B /* FetchRewardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9AEF32B6B1A22002E2B6B /* FetchRewardsTests.swift */; };
@@ -34,9 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BB7F0A82B6D37930095AEC4 /* DessertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertsView.swift; sourceTree = "<group>"; };
+		3BB7F0AA2B6D385B0095AEC4 /* Dessert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dessert.swift; sourceTree = "<group>"; };
+		3BB7F0AC2B6D38700095AEC4 /* DessertsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertsViewModel.swift; sourceTree = "<group>"; };
+		3BB7F0AF2B6D39070095AEC4 /* DessertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertService.swift; sourceTree = "<group>"; };
+		3BB7F0B12B6D39580095AEC4 /* DessertDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetails.swift; sourceTree = "<group>"; };
+		3BB7F0B32B6D3C710095AEC4 /* DessertDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailsView.swift; sourceTree = "<group>"; };
+		3BB7F0B52B6D3CBA0095AEC4 /* DessertDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailsViewModel.swift; sourceTree = "<group>"; };
 		3BC9AEDE2B6B1A1E002E2B6B /* FetchRewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchRewards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC9AEE12B6B1A1E002E2B6B /* FetchRewardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRewardsApp.swift; sourceTree = "<group>"; };
-		3BC9AEE32B6B1A1E002E2B6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3BC9AEE52B6B1A22002E2B6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BC9AEE72B6B1A22002E2B6B /* FetchRewards.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FetchRewards.entitlements; sourceTree = "<group>"; };
 		3BC9AEE92B6B1A22002E2B6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -72,6 +84,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BB7F0A42B6D36D10095AEC4 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		3BB7F0A52B6D37510095AEC4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3BB7F0AA2B6D385B0095AEC4 /* Dessert.swift */,
+				3BB7F0B12B6D39580095AEC4 /* DessertDetails.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3BB7F0A62B6D375B0095AEC4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3BB7F0A82B6D37930095AEC4 /* DessertsView.swift */,
+				3BB7F0B32B6D3C710095AEC4 /* DessertDetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3BB7F0A72B6D37650095AEC4 /* ViewsModel */ = {
+			isa = PBXGroup;
+			children = (
+				3BB7F0AC2B6D38700095AEC4 /* DessertsViewModel.swift */,
+				3BB7F0B52B6D3CBA0095AEC4 /* DessertDetailsViewModel.swift */,
+			);
+			path = ViewsModel;
+			sourceTree = "<group>";
+		};
+		3BB7F0AE2B6D38E70095AEC4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3BB7F0AF2B6D39070095AEC4 /* DessertService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		3BC9AED52B6B1A1E002E2B6B = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +149,12 @@
 		3BC9AEE02B6B1A1E002E2B6B /* FetchRewards */ = {
 			isa = PBXGroup;
 			children = (
+				3BB7F0AE2B6D38E70095AEC4 /* Services */,
+				3BB7F0A72B6D37650095AEC4 /* ViewsModel */,
+				3BB7F0A62B6D375B0095AEC4 /* Views */,
+				3BB7F0A52B6D37510095AEC4 /* Models */,
+				3BB7F0A42B6D36D10095AEC4 /* New Group */,
 				3BC9AEE12B6B1A1E002E2B6B /* FetchRewardsApp.swift */,
-				3BC9AEE32B6B1A1E002E2B6B /* ContentView.swift */,
 				3BC9AEE52B6B1A22002E2B6B /* Assets.xcassets */,
 				3BC9AEE72B6B1A22002E2B6B /* FetchRewards.entitlements */,
 				3BC9AEE82B6B1A22002E2B6B /* Preview Content */,
@@ -259,8 +317,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BC9AEE42B6B1A1E002E2B6B /* ContentView.swift in Sources */,
 				3BC9AEE22B6B1A1E002E2B6B /* FetchRewardsApp.swift in Sources */,
+				3BB7F0AB2B6D385B0095AEC4 /* Dessert.swift in Sources */,
+				3BB7F0A92B6D37930095AEC4 /* DessertsView.swift in Sources */,
+				3BB7F0B22B6D39580095AEC4 /* DessertDetails.swift in Sources */,
+				3BB7F0B62B6D3CBA0095AEC4 /* DessertDetailsViewModel.swift in Sources */,
+				3BB7F0B02B6D39070095AEC4 /* DessertService.swift in Sources */,
+				3BB7F0B42B6D3C710095AEC4 /* DessertDetailsView.swift in Sources */,
+				3BB7F0AD2B6D38700095AEC4 /* DessertsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,7 +504,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = harjot.FetchRewards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -476,7 +541,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = harjot.FetchRewards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

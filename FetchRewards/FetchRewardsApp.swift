@@ -11,7 +11,7 @@ import SwiftUI
 struct FetchRewardsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DessertsView()
         }
     }
 }
