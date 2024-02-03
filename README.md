@@ -2,7 +2,7 @@
 
 ## Overview
 
-The FetchRewards Desserts application showcases a collection of desserts and their detailed recipes fetched from an external API. This document provides an overview of the application's architecture, including models, view models, views, and service layers, and outlines potential areas for future enhancements.
+The FetchRewards Desserts application showcases a collection of desserts and their detailed recipes fetched from an external API: https://themealdb.com/api.php. This document provides an overview of the application's architecture, including models, view models, views, and service layers, and outlines potential areas for future enhancements.
 
 <div align="center">
 
