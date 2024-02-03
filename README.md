@@ -4,6 +4,16 @@
 
 The FetchRewards Desserts application showcases a collection of desserts and their detailed recipes fetched from an external API. This document provides an overview of the application's architecture, including models, view models, views, and service layers, and outlines potential areas for future enhancements.
 
+<div align="center">
+
+| <img src="https://github.com/harjotsbhatia/FetchRewards-TakeHome/assets/89289963/1bdea5c7-0838-45d3-b826-4d3808a4c242"  height="400" />   | ![GIF 2024-02-03 at 14 52 59](https://github.com/harjotsbhatia/FetchRewards-TakeHome/assets/89289963/d6f437cd-6850-401e-a925-bbb4beb00b34)|
+| --------------------------------------- | --------------------------------------- |
+
+</div
+
+
+
+
 ## Models
 
 ### `DessertsModel.swift`
