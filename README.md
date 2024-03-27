@@ -1,4 +1,4 @@
-# FetchRewards Desserts Application Documentation
+# Desserts Application Documentation
 
 ## Overview
 
